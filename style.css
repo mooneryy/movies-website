@@ -38,7 +38,7 @@ header {
     justify-content: space-between;
     padding: 20px 100px;
     transition: 0.5s;
-    /* background-color: var(--main-color); */
+    
 }
 
 .logo {
@@ -121,4 +121,56 @@ header {
     object-fit: cover;
     object-position: center;
     z-index: -1;
+}
+
+.swiper-pagination-bullet {
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 3.2px !important;
+    background: var(--bg-color) !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 24px !important;
+    background: var(--main-color)!important;
+}
+
+.home-text {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    z-index: 1000;
+    padding: 0 150px;
+}
+
+.home-text span {
+    color: var(--bg-color);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.home-text h1 {
+    color: var(--bg-color);
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.play .bx {
+    background: var(--bg-color);
+    padding: 10px;
+    font-size: 32px;
+    border-radius: 50%;
+    border: 4px solid rgb(2, 3, 7, 0.4);
+    color: var(--main-color);
+}
+
+.play .bx:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    transition: 0.2s all linear;
+    
 }
