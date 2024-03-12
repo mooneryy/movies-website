@@ -1,3 +1,10 @@
+let header = document.querySelector('header');
+
+window.addEventListener('scroll', () => {
+  header.classList.toggle('shadow', window.scrollY > 0);
+});
+
+
 var swiper = new Swiper(".home", {
       spaceBetween: 30,
       centeredSlides: true,
@@ -15,10 +22,6 @@ var swiper = new Swiper(".home", {
  var swiper = new Swiper(".coming-container", {
       slidesPerView: 1,
       spaceBetween: 10,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
       breakpoints: {
         640: {
           slidesPerView: 2,
