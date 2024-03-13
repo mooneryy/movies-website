@@ -113,7 +113,7 @@ header.shadow .logo {
     font-size: 24px;
     cursor: pointer;
     z-index: 1000001;
-   
+    display: none;
 } 
 
 .btn {
