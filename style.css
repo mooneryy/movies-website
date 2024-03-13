@@ -451,6 +451,10 @@ header.shadow .logo {
 }
 
 @media (max-width: 472px) {
+    .movies-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    }
+
     .coming-container {
         max-width: 472px;
     }
@@ -489,7 +493,7 @@ header.shadow .logo {
     }
 
     .coming-container {
-            max-width: 370px;
+        max-width: 370px;
     }
 
     .box .box-img {
