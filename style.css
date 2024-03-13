@@ -445,9 +445,16 @@ header.shadow .logo {
         grid-template-columns: repeat(auto-fit, minmax(160px, auto));
     }
 
+    .coming-container {
+        max-width: 774px;
+    }
 }
 
 @media (max-width: 472px) {
+    .coming-container {
+        max-width: 472px;
+    }
+
     .newsletter form .email {
         width: auto;
     }
@@ -479,6 +486,10 @@ header.shadow .logo {
 
     .movies-container {
         grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+    }
+
+    .coming-container {
+            max-width: 370px;
     }
 
     .box .box-img {
